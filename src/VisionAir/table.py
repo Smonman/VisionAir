@@ -20,8 +20,6 @@ class VigenereTable(ABC):
         return str(self.alphabet)
 
     def _letter_to_index(self, letter: str) -> int:
-        LOGGER.debug(f"letter: {letter}")
-        LOGGER.debug(f"alphabet: {self.alphabet}")
         return list(self.alphabet).index(letter.upper())
 
     @abstractmethod
