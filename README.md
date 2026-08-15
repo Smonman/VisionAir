@@ -2,7 +2,8 @@
 
 _A simple [Vigenere-Chiffre](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher) program_
 
-Encrypts and decrypts text using a [Vigenere-Chiffre](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher).
+Encrypts and decrypts text using a [Vigenere-Chiffre](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher). No AI was
+used in the making of this program.
 
 ## Synopsis
 
@@ -57,3 +58,6 @@ plaintext = "".join(decrypted_generator)  # consume generator to string
 
 - Currently, unsupported characters are simply skipped. Other techniques to handle such cases could be explored, e.g.
   stripping them.
+- Limited unit testing
+- No proper documentation
+- Could be extended to a Python Project
